@@ -8,7 +8,7 @@ ruby-2.5.3
 ```
 
 * Services
-The features of the blog includes barebones Creation, Viewing, Editing, and Deletions of Blog entries
+The features of the blog includes barebones Creation, Viewing, Editing, and Deletion of Blog entries
 
 Creation Route
 ```
@@ -25,9 +25,9 @@ Editing Route
 /posts/:id/edit
 ```
 
-Creation Route
+Deletion Route
 ```
-tba
+/posts/:id/delete
 ```
 
 * Deployment instructions
