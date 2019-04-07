@@ -4,7 +4,7 @@ Just a bunch of beginner ruby projects for training for HackUMass following the 
 This is the training for the HackUMass Technology team 
 of which only basic training is currently complete (see /blog)
 
-In the next few days I will create 3 Projects (0/3 done now) and a personal
+In the next few days I will create 3 Projects (0/3 done now) and a personal project (modified from an existing one)
 ```
 Project 1: N/A
 Project 2: N/A
