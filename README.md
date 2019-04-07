@@ -6,7 +6,7 @@ of which only basic training is currently complete (see /blog)
 
 In the next few days I will create 3 Projects (0/3 done now) and a personal project (modified from an existing one)
 ```
-Project 1: N/A
+Project 1: In Progress (initialization)
 Project 2: N/A
 Project 3: N/A
 Personal Project: N/A
