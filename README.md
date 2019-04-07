@@ -4,10 +4,9 @@ Just a bunch of beginner ruby projects for training for HackUMass following the 
 This is the training for the HackUMass Technology team 
 of which only basic training is currently complete (see /blog)
 
-In the next few days I will create 3 Projects (0/3 done now) and a personal project (modified from an existing one)
+In the next few days I will create 3 Projects (0/3 done now) from Mackenzie Child's "12 Web Apps in 12 Weeks" and try to personalize it as I follow along
 ```
-Project 1: In Progress (initialization)
+Project 1: In Progress (adding users)
 Project 2: N/A
 Project 3: N/A
-Personal Project: N/A
 ```

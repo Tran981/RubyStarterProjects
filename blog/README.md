@@ -10,6 +10,11 @@ ruby-2.5.3
 * Services
 The features of the blog includes barebones Creation, Viewing, Editing, and Deletion of Blog entries
 
+Landing page Route 
+```
+/ or /posts
+```
+
 Creation Route
 ```
 /posts/new
