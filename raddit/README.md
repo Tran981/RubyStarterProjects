@@ -15,11 +15,11 @@ The functionality are as follows
   * Users who have created the link are able to modify/delete the posts when clicked on the link
   * Any account will be able to view and visit a link, but will not be able to vote, create posts, or modify data
 
-+ Forum interation
+* Forum interation
   * Signed in users can be able to updoot or downdoots posts and the cummulative total can be seen by all vistors of the site
   * A signed in user is able to comment on each link and only the creator of said comment can delete it
 
-+ Security
+* Security
   * Users that have created the link are the only one that can view then modify/destroy that they have created.
   * Only authorized accounts can access paths of the webpage that manipulate the data of the links
   * Only those signed in are allowed to upvote or downvote a link

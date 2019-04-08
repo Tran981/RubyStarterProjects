@@ -1,5 +1,6 @@
 GEM
   remote: https://rubygems.org/
+  remote: https://rails-assets.org/
   specs:
     actioncable (5.2.3)
       actionpack (= 5.2.3)
@@ -139,6 +140,7 @@ GEM
       bundler (>= 1.3.0)
       railties (= 5.2.3)
       sprockets-rails (>= 2.0.0)
+    rails-assets-particles.js (2.0.0)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
@@ -237,6 +239,7 @@ DEPENDENCIES
   jquery-rails
   puma (~> 3.11)
   rails (~> 5.2.3)
+  rails-assets-particles.js!
   record_tag_helper (~> 1.0)
   sass-rails (~> 5.0)
   sassc-rails (>= 2.1.0)
