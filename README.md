@@ -6,7 +6,7 @@ of which only basic training is currently complete (see /blog)
 
 In the next few days I will create 3 Projects (0/3 done now) from Mackenzie Child's "12 Web Apps in 12 Weeks" and try to personalize it as I follow along
 ```
-Project 1: In Progress (Added User Updoots and Downdoots Timestamp ~52:45)
+Project 1: In Progress (Added Comments Timestamp ~1:01:50)
 Project 2: N/A
 Project 3: N/A
 ```

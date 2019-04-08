@@ -55,3 +55,8 @@ gem 'jquery-rails'
 
 # Updoots and Downdoots
 gem 'acts_as_votable', '~> 0.12.0'
+
+# simple forms
+gem 'simple_form', '~> 4.1'
+
+gem 'record_tag_helper', '~> 1.0'
