@@ -18,6 +18,7 @@ The functionality are as follows
 * Forum interation
   * Signed in users can be able to updoot or downdoots posts and the cummulative total can be seen by all vistors of the site
   * A signed in user is able to comment on each link and only the creator of said comment can delete it
+  * Sorting based on the creation time. Sort by the most recent posts or oldest post, the user, or the title
 
 * Security
   * Users that have created the link are the only one that can view then modify/destroy that they have created.

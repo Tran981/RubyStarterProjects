@@ -1,12 +1,19 @@
 class LinksController < ApplicationController
-  before_action :set_link, only: [:show, :edit, :update, :destroy]
+  before_action :set_link, only: [:show, :edit, :update, :destroy, :upvote, :downvote]
   before_action :authenticate_user!, except: [:index, :show]
-  before_action :vote_params, only: [:upvote, :downvote]
 
   # GET /links
   # GET /links.json
   def index
     @links = Link.all
+    if params[:order].in? %w[year r user_id title]
+      # adds ORDER to the scope
+      if params[:order] == 'r'
+        @links = Link.all.order(:id).reverse
+      else 
+        @links.merge!(Link.order("? DESC", params[:order]))
+      end
+    end
   end
 
   # GET /links/1
@@ -74,10 +81,6 @@ class LinksController < ApplicationController
   end
 
   private
-    def vote_params
-      @link = Link.find(params[:id])
-    end
-
     # Use callbacks to share common setup or constraints between actions.
     def set_link
       @link = Link.find(params[:id])

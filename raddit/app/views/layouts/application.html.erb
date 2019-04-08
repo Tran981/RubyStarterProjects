@@ -36,6 +36,14 @@
     <% end %>
 
     <div id="content" class="col-md-9 center-block">
+    <% if current_page?(root_url) || current_page?('/links')  %>
+      <p>Sort by: 
+        <%= link_to "Oldest", links_path(order: 'id') %>,
+        <%= link_to "Recent", links_path(order: 'r') %>,
+        <%= link_to "user", links_path(order: 'user_id') %>,
+        <%= link_to "Title", links_path(order: 'title') %>
+      </p>
+    <% end %>
       <%= yield %>
     </div>
   <div>
