@@ -13,6 +13,9 @@ The functionality are as follows
 * Job functionality
   * Anyone can view, create, edit, and delete jobs on the listing
 
+* View Jobs
+  * Jobs can be viewed on the listed based on categories
+
 * Deployment instructions 
 It has beeon only tested on the local server, but you are welcome to try to deploy it! 
 
