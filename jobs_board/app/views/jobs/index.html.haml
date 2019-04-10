@@ -2,4 +2,6 @@
 	- @jobs.each do |job|
 		.job
 			%h2= link_to job.title, job
-			%p= job.company
+			%span
+				%img{ src: ("http://www.google.com/s2/favicons?domain=" + job.url) }
+				%p= job.company
