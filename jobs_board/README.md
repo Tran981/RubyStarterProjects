@@ -8,8 +8,10 @@ ruby-2.5.3
 
 This web app is meant to emulate a job board, where you can post jobs and sort such jobs on a listing page.
 
-The project has just been initialized
+The functionality are as follows
 
+* Job functionality
+  * Anyone can view, create, edit, and delete jobs on the listing
 
 * Deployment instructions 
 It has beeon only tested on the local server, but you are welcome to try to deploy it! 
