@@ -11,8 +11,7 @@ This web app is meant to keep track of workout lists
 The functionality are as follows
 
 * Workout listings
-  * create and view workouts
-  * view all workouts
+  * CRUD of all workouts
 
 * Deployment instructions 
 It has beeon only tested on the local server, but you are welcome to try to deploy it! 
