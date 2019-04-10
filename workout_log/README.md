@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+The last of the 3 ruby on rails projects for HackUMass training,
+This is also the result of episode one of the "12 Web Apps in 12 Weeks" of Mackenzie Child's Ruby on Rails series https://youtu.be/814gCeOpM4o
 
 * Ruby version
+ruby-2.5.3
 
-* System dependencies
+This web app is meant to keep track of workout lists
 
-* Configuration
+The functionality are as follows
 
-* Database creation
+* Workout listings
+  * create and view workouts
 
-* Database initialization
+* Deployment instructions 
+It has beeon only tested on the local server, but you are welcome to try to deploy it! 
 
-* How to run the test suite
+To run the development server on a computer with a ruby on rails environment installed run this command,
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails server
+```

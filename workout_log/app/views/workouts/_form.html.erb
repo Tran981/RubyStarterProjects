@@ -1,0 +1,21 @@
+<%= simple_form_for @workout,
+  wrapper: :horizontal_form,
+  wrapper_mappings: {
+    boolean:       :horizontal_boolean,
+    check_boxes:   :horizontal_collection,
+    date:          :horizontal_multi_select,
+    datetime:      :horizontal_multi_select,
+    file:          :horizontal_file,
+    radio_buttons: :horizontal_collection,
+    range:         :horizontal_range,
+    time:          :horizontal_multi_select
+  } do |f| %>
+
+  <%= f.input :date, label: "Day of workout: "%>
+  <%= f.input :workout, label: "Workout: "%>
+  <%= f.input :mood, label: "How'd you feel: " %>
+  <%= f.input :length, label: "How long:" %>
+
+  <%= f.button :submit, class: "btn btn-default"%>
+  <%= link_to "Back", root_path, class: "btn btn-default"%>
+<% end %>
