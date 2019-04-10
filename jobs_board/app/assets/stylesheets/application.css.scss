@@ -75,13 +75,12 @@ body {
 			}
 		}
 		p {
-			display: inline; 
 			color: rgba(250, 250, 250, 0.733);
 		}
 	}
 }
 
-span img { display: inline; padding: 5px 5px 5px 5px;}
+span img, span p { display: inline; padding: 5px 5px 5px 5px;}
 
 #links {
 	margin-top: 2em;
