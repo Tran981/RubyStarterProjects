@@ -8,5 +8,5 @@ In the next few days I will create 3 Projects (1/3 done now) from Mackenzie Chil
 ```
 Project 1: Completed (Added Particle.js and Sorting of Links | timestamp ~finished) Challenge 1 Raddit
 Project 2: Completed (Added better bootstrap to New Job page | timestamp ~finished) Challenge 7 Job Board
-Project 3: In progress (Creation of Workouts | timestamp ~23:13) Challenge 8 Workout Log
+Project 3: In progress (Fixed Bootstrap and added view all workouts | timestamp ~28:15) Challenge 8 Workout Log
 ```

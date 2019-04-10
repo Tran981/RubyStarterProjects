@@ -1,1 +1,5 @@
 %h1 This is index
+
+- @workout.each do |f|
+  %h2= link_to f.date, workouts_path
+  %h3= f.workout
